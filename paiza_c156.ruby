@@ -20,21 +20,5 @@ for str1 in array1 do
     end
 end
 
-min_count = num
-
-for str2 in array2 do
-    count = 0
-    for str3 in array1 do
-        if str3 == str2 then
-            count += 1
-        end
-    end
-    if count <  min_count  then
-        min_count = count
-    end
-end
-if min_count == num then
-    puts(1)
-else
-    puts(min_count)
-end
+ans = array2.length()
+puts ans
